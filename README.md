@@ -16,11 +16,11 @@ The function:
 
 ```
 .
-├── get_next_line.c			#Main get_next_line implementation.
-├── get_next_line.h          		#Main function prototypes
-├── get_next_line_utils.c		#Helper functions for the mandatory part.
-├── get_next_line_bonus.c 		#Bonus get_next_line implementation.
-├── get_next_line_bonus.h		#Bonus function prototypes
+├── get_next_line.c					#Main get_next_line implementation.
+├── get_next_line.h         		#Main function prototypes
+├── get_next_line_utils.c			#Helper functions for the mandatory part.
+├── get_next_line_bonus.c 			#Bonus get_next_line implementation.
+├── get_next_line_bonus.h			#Bonus function prototypes
 ├── get_next_line_utils_bonus.c		#Helper functions for the Bonus part.
 ├── README.md
 
@@ -30,19 +30,19 @@ The function:
 ## Instructions
 
 - Compile the mandatory part with
-	
+
 	cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c
-	
+
 You can change `BUFFER_SIZE` to any positive value.
 
 - For the bonus:
-	
+
 	cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line_bonus.c get_next_line_utils_bonus.c
-	
+
 The function can then be used as:
 
 	char	*line;
-	
+
 	line = get_next_line(fd);
 
 ## Algorithm
